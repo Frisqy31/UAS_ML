@@ -21,10 +21,10 @@ def rf_sub_menu():
 
     if choice == "Fish":
         st.write("Kamu memilih Random Forest -> Fish.")
-        runpy.run_path('Random Forest/Fish/app_RFfish.py')
+        runpy.run_path('app_RFfish.py')
     elif choice == "Fruit":
         st.write("Kamu memilih Random Forest -> Fruit.")
-        runpy.run_path('Random Forest/Fruit/app_RFfruit.py')
+        runpy.run_path('app_RFfruit.py')
 
 def p_sub_menu():
     st.subheader("Perceptron Menu")
@@ -35,7 +35,7 @@ def p_sub_menu():
 
     if choice == "Fruit":
         st.write("Perceptron -> Fruit.")
-        runpy.run_path('Perceptron/Fruit/app_percepfruit.py')
+        runpy.run_path('app_percepfruit.py')
 
 if __name__ == "__main__":
     main()
